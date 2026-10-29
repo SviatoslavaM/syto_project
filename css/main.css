@@ -1,0 +1,16 @@
+@import 'base/reset.css';
+@import 'base/variables.css';
+@import 'base/base.css';
+@import 'layout/header.css';
+@import 'layout/hero.css';
+@import 'layout/about.css';
+@import 'layout/our.css';
+@import 'layout/menu.css';
+@import 'layout/topsales.css';
+@import 'layout/product.css';
+@import 'layout/delivery.css';
+@import 'layout/reviews.css';
+@import 'layout/footer.css';
+@import 'layout/nazar.css';
+@import 'layout/bigmenu.css';
+@import 'layout/productinfo.css';

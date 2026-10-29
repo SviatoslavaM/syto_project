@@ -1,0 +1,254 @@
+.top-sales-header {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.top-sales-logo {
+    width: 48px;
+}
+
+.top-sales-p {
+    font-size: 32px;
+    font-family: Cormorant Garamond;
+    font-weight: 700;
+    line-height: 35px;
+
+
+}
+
+.top-sales-container {
+    width: 100%;
+    margin: 0 auto;
+    background: #f7f1e7;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.top-sales-container-h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    text-transform: uppercase;
+
+    color: #2e313a;
+    margin-bottom: 10px;
+}
+
+.logo-vareneki {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.top-sales-container-p {
+    font-size: 18px;
+    font-family: Manrope;
+    font-weight: 400;
+
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-bottom: 43px;
+}
+
+.vareneki-hot {
+    /* margin: 40px; */
+    padding: 30px 10px 37px 10px;
+}
+
+.advantageOne,
+.advantageTwo,
+.advantageThree {
+    display: flex;
+    flex-direction: column;
+    color: #2e313a;
+    flex-wrap: wrap;
+    font-size: 18px;
+    align-items: center;
+}
+
+.advantages p {
+    font-family: "Cormorant Garamond";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #2e313a;
+    margin-top: 10px;
+}
+
+.top-sales .price {
+    color: #d4a373;
+    font-size: 32px;
+    font-family: "Cormorant Garamond";
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.top-sales-price-Order-Now {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Order-Now {
+    width: 191px;
+    height: 56px;
+    background: #d4a373;
+    border: 1px solid #d4a373;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    color: #f7f1e7;
+    font-size: 28px;
+    align-items: center;
+
+    font-family: "Cormorant Garamond";
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.Cart {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.herbs,
+.dough,
+.premium {
+    width: 45px;
+    height: 45px;
+}
+
+.span-h2 {
+    color: #d4a373;
+}
+
+@media screen and (min-width: 744px) {
+    .top-sales-logo {
+        width: 57px;
+        height: 57px;
+    }
+
+    .top-sales-p {
+        font-size: 38px;
+    }
+
+    .top-sales-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 30px;
+    }
+
+    .top-sales-container-h2 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .top-sales-container-p {
+        font-size: 22px;
+    }
+
+    .advantageOne,
+    .advantageTwo,
+    .advantageThree {
+        display: flex;
+        color: #2e313a;
+        margin: 15px;
+        font-size: 24px;
+    }
+
+    .herbs,
+    .dough,
+    .premium {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Order-Now {
+        width: 250px;
+    }
+
+    .top-sales .price {
+        width: 110px;
+    }
+
+    .logo-vareneki {
+        width: 663.741px;
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .top-sales-p {
+        font-size: 38px;
+    }
+
+    .top-sales {
+        display: flex;
+    }
+
+    .top-sales-container-h2 {
+        font-size: 42px;
+    }
+
+    .top-sales-container-p {
+        font-size: 24px;
+    }
+
+    .top-sales-container {
+        border: 1px solid #F7F1E7;
+        flex-direction: row;
+        border-radius: 1px;
+    }
+
+    .logo-vareneki {
+        width: 494px;
+        border-radius: 0px;
+        margin: 0;
+    }
+
+    .advantageOne,
+    .advantageTwo,
+    .advantageThree {
+        flex-direction: row;
+        font-size: 24px;
+        padding: 25px;
+        padding-left: 1px;
+    }
+
+    .top-sales .price {
+        font-size: 38px;
+        font-family: Cormorant Garamond;
+        font-weight: 700;
+        font-style: Bold;
+
+    }
+
+    .Cart {
+        width: 36.63568878173828px;
+    }
+
+    .Order-Now {
+        font-size: 32px;
+    }
+
+    .vareneki-hot {
+        padding-left: 45px;
+    }
+}

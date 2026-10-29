@@ -1,0 +1,11 @@
+:root {
+  --body-bg: #faf7f3;
+  --bg-primary: #2e313a;
+  --bg-light-transparent: rgba(247, 241, 231, 0.44);
+
+  --text-light: #f7f1e7;
+  --text-dark: #2e313a;
+
+  --accent-color: #d4a373;
+  --accent-transparent: rgba(212, 163, 115, 0.37);
+}

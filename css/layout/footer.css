@@ -1,0 +1,261 @@
+.footer {
+  background: #2e313a;
+  color: white;
+
+  padding: 25px;
+}
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-logo {
+  width: 111.86486053466797px;
+}
+
+.domestic {
+  font-family: Cormorant Garamond;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  color: #f7f1e7;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer-hous-p {
+  font-family: Cormorant Garamond;
+  font-weight: 400;
+  font-style: Italic;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.itg {
+  display: flex;
+  justify-content: center;
+}
+
+.foto-footerOne,
+.foto-footerTwo,
+.foto-footerTree {
+  width: 28px;
+  height: 28px;
+}
+
+.footer-contacts-h3,
+.footer-menu-h3,
+.footer-Categories-h3 {
+  font-family: Cormorant Garamond;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  color: #d4a373;
+}
+
+.Regulations {
+  font-family: Cormorant Garamond;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.Policy {
+  font-size: 18px;
+  font-family: Cormorant Garamond;
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+.footer-burger {
+  flex-direction: column;
+}
+
+
+
+.one {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #d4a373;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.footer-logo-sito {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.footer-hr {
+  width: 100%;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.28);
+}
+@media screen and (min-width: 744px) {
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer-burger {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer-hous-p {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .itg {
+    margin-bottom: 30px;
+  }
+
+  .footer-contacts-h3,
+  .footer-menu-h3,
+  .footer-Categories-h3 {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+
+  .footer li {
+    margin-bottom: 20px;
+  }
+
+  .Policy,
+  .Regulations {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .footer-hr {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-hr {
+    width: 100%;
+  }
+
+  .footer-logo {
+    width: 89.59458923339844px;
+  }
+
+  .footer-hous {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 26%;
+  }
+
+  .footer-hous-p {
+    text-align: left;
+  }
+  .Policy,
+  .Regulations {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .footer-hr {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-burger {
+    width: 65%;
+  }
+}
+.footer ul a {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 744px) {
+  .footer-menu,
+  .Categories,
+  .contacts {
+    border-top: 1px solid rgba(255, 255, 255, 0.28);
+    width: 100%;
+    padding: 10px 0;
+  }
+  .footer-burger {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .ul1,
+  .ul2,
+  .ul3 {
+    display: none;
+  }
+  .footer-accordion {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .footer-menu-h3,
+  .footer-Categories-h3,
+  .footer-contacts-h3 {
+    position: relative;
+    margin: 0;
+    padding: 15px 50px 15px 0;
+  }
+
+  .footer-menu-h3::after,
+  .footer-Categories-h3::after,
+  .footer-contacts-h3::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 42px;
+    font-weight: 300;
+    color: #d4a373;
+    transition: transform 0.3s ease;
+  }
+
+  .footer-accordion.active .footer-menu-h3::after,
+  .footer-accordion.active .footer-Categories-h3::after,
+  .footer-accordion.active .footer-contacts-h3::after {
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  .ul1,
+  .ul2,
+  .ul3 {
+    max-height: 0;
+    overflow: hidden;
+    display: block;
+    opacity: 0;
+    transition:
+      max-height 0.4s ease,
+      opacity 0.3s ease,
+      margin-top 0.3s ease;
+  }
+
+  .footer-accordion.active ul {
+    max-height: 500px;
+    opacity: 1;
+    margin-top: 15px;
+  }
+
+  .footer-accordion li {
+    margin-bottom: 12px;
+  }
+  .footer__container {
+      justify-content: center;}
+      .itg{
+        margin-top: 20px;
+      }
+}
+
